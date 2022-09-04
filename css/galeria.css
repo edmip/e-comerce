@@ -1,12 +1,13 @@
 
 section{
-    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .galeria-nombre{
     display: grid;
     grid-template-columns: auto auto;
     justify-content: space-between;
+    align-items: center ;
 }
 .galeria-star, .galeria-consolas, .galeria-diversos {
     display: grid;
