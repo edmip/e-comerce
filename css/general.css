@@ -1,0 +1,10 @@
+main{
+    margin: 2rem 5rem 3rem;
+}
+.botones{
+    background: var(--color-azul);
+    color: white;
+    padding: .6rem;
+    border: none;
+}
+

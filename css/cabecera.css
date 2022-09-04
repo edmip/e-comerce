@@ -1,0 +1,32 @@
+#cabecera-lista{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.cabecera-banner{
+    background-image: url("../img/banner-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 7rem;
+    padding-left: 5rem;
+    padding-bottom: 1rem;
+    color: white;
+    line-height: 2;
+}
+.cabecera-banner h1{
+    font-size: 2.5rem;
+}
+.cabecera-banner h3{
+    font-size: 1.1rem;
+    line-height: 3;
+}
+
+.cabecera-boton{
+    padding: .6rem 4rem;
+    background: none;
+    border:  solid 1px var(--color-azul);
+    color: var(--color-azul);
+}

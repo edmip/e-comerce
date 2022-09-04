@@ -1,0 +1,43 @@
+footer{
+    margin-top: auto;
+}
+.pie{
+    background: #EAF2FD;
+    padding: 3rem 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.pie-opciones-items{
+    line-height: 2;
+   
+}
+
+.pie-formulario-form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.formulario-btn{
+    width: 25%;
+}
+
+.pie-datos{
+    text-align: center;
+    padding-top: 1rem;
+    line-height: 1.5;
+}
+
+.input-padron{
+ border: none;
+ line-height: 2;
+}
+
+#nombre{
+    height: 2.5rem;
+
+}
