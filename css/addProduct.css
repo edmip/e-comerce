@@ -18,6 +18,15 @@ main{
 .agregar-titulo{
     margin-bottom: 1rem;
 }
+#imgPreview{
+    max-width: 50%;
+    max-height: 300px;
+    margin: auto;
+}
+
+#seleccionArchivos{
+    color: var(--color-azul);
+}
 .agregar{
     margin-bottom: 1rem;
     line-height: 3;
