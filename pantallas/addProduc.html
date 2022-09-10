@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="..//css/colores.css">
+    <link rel="stylesheet" href="../css/general.css">
+    <link rel="stylesheet" href="../css/cabecera.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/addProduct.css">
+    <title>Agregar Producto</title>
+</head>
+<body>
+    <!-- CABECERA--> 
+    <header id="cabecera">
+        <nav>
+            <ul id="cabecera-lista">
+                <li class="cabecera-items"><a href="/pantallas/index.html"><img src="../img/Logo.png" alt="logo"></a></li>
+                <li class="cabecera-items"><img src="../img/Barra_de_busqueda.png" alt="busqueda"></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- SECCIONES DE FORMULARIO AGREGAR PRODUCTO-->
+    <main>
+        <div class="contenedor-agregar">
+            <form class="agregar-formulario">
+                <h1 class="agregar-titulo">Agregar Producto</h1>  
+                <input type="text" id="url" class="input-padron agregar" placeholder="URL de la imagen" required>
+                <input type="text" id="categoria" class="input-padron agregar" placeholder="Categoria" required>
+                <input type="text" id="nombreProduct" class="input-padron agregar" placeholder="Nombre del Producto" required>
+                <input type="text" id="precioProduct" class="input-padron agregar" placeholder="Precio del Producto" required>
+                <textarea id="mensaje" rows="2" class="input-padron agregar" placeholder="descripcion del producto"></textarea>
+                <input type="submit" id="btn-agragar" class="botones formulario-btn" value="Agregregar Producto">
+            </form>
+        </div>     
+    </main>
+
+    <!-- PIE DE PAGINA-->
+    <footer>
+        <div class="pie">
+            <div class="pie-logo">
+                <img src="../img/Logo.png" alt="logo">
+            </div>
+            <div class="pie-opciones">
+                <ul>
+                    <li class="pie-opciones-items"><a href="#">Quienes Somos</a></li>
+                    <li class="pie-opciones-items"><a href="#">Politica de Privacidad</a></li>
+                    <li class="pie-opciones-items"><a href="#">Programa de Fidelidad</a></li>
+                    <li class="pie-opciones-items"><a href="#">Nuestras Tiendas</a></li>
+                    <li class="pie-opciones-items"><a href="#">Quiero ser Franquiciado</a></li>
+                    <li class="pie-opciones-items"><a href="#">Anuncie Aqui</a></li>
+                </ul>
+            </div>
+            <div class="pie-formulario">
+                <form class="pie-formulario-form">
+                    <p>Hable con Nosotros</p>  
+                    <input type="text" id="nombre" class="input-padron" placeholder="Nombre y Apellido" required>
+                    <textarea id="mensaje" cols="70" rows="3" class="input-padron" placeholder="Escribe un Mensaje"></textarea>
+                    <input type="submit" class="botones formulario-btn" value="Enviar Mensaje">
+                </form>
+            </div>
+
+        </div> 
+        <div class="pie-datos">
+            <p>Desarrollado por Edmi Perez</p>
+            <p>2022</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

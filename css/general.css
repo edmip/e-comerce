@@ -8,3 +8,7 @@ main{
     border: none;
 }
 
+.input-padron{
+    box-shadow: 0px 1px 0px #999;
+}
+

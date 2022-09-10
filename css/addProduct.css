@@ -1,0 +1,29 @@
+main{
+    background: var(--gris-fondo);
+}
+.contenedor-agregar{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+.agregar-formulario{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3rem;
+    margin: auto;
+    width: 100%;
+}
+.agregar-titulo{
+    margin-bottom: 1rem;
+}
+.agregar{
+    margin-bottom: 1rem;
+    line-height: 3;
+    
+}
+
+#btn-agragar{
+    width: 100%;
+}
