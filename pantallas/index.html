@@ -33,89 +33,27 @@
         <section class="galeria-uno">
                 <div class="galeria-nombre">
                     <h1 class="galeria-titulo"> STAR WARDS</h1>
-                    <a href="#" class="galeria-vertodo">Ver todo</a>
+                    <a href="allProduct.html" class="galeria-vertodo">Ver todo</a>
                 </div>
-                <div class="galeria-star">
-                    <div class="galeria-descripcion">
-                        <ul class="galeria-descripcion-articulo">
-                            <li class="galeria-descripcion-items img"><img src="../img/unsplash_1VV1MRafd7A.png" alt="objeto" class="foto"></li>
-                            <li class="galeria-descripcion-items nombre"><p>nombre</p></li>
-                            <li class="galeria-descripcion-items precio"><p>precio</p></li>
-                            <li class="galeria-descripcion-items ver-producto"><a href="#">ver producto</a></li>
-                        </ul>
-                    </div>
-                    <div class="galeria-descripcion">
-                        <ul class="galeria-descripcion-articulo">
-                            <li class="galeria-descripcion-items img"><img src="../img/cuadrado.jpg" alt="objeto" class="foto"></li>
-                            <li class="galeria-descripcion-items nombre"><p>nombre</p></li>
-                            <li class="galeria-descripcion-items precio"><p>precio</p></li>
-                            <li class="galeria-descripcion-items ver-producto"><a href="#">ver producto</a></li>
-                        </ul>
-                    </div>
-                    <div class="galeria-descripcion">
-                        <ul class="galeria-descripcion-articulo">
-                            <li class="galeria-descripcion-items img"><img src="../img/google.png" alt="objeto" class="foto"></li>
-                            <li class="galeria-descripcion-items nombre"><p>nombre</p></li>
-                            <li class="galeria-descripcion-items precio"><p>precio</p></li>
-                            <li class="galeria-descripcion-items ver-producto"><a href="#">ver producto</a></li>
-                        </ul>
-                    </div>
-                    <div class="galeria-descripcion">
-                        <ul class="galeria-descripcion-articulo">
-                            <li class="galeria-descripcion-items img"><img src="../img/nina.png" alt="objeto" class="foto"></li>
-                            <li class="galeria-descripcion-items nombre"><p>nombre</p></li>
-                            <li class="galeria-descripcion-items precio"><p>precio</p></li>
-                            <li class="galeria-descripcion-items ver-producto"><a href="#">ver producto</a></li>
-                        </ul>
-                    </div>
-                    <div class="galeria-descripcion">
-                        <ul class="galeria-descripcion-articulo">
-                            <li class="galeria-descripcion-items img"><img src="../img/kame.jpg" alt="objeto" class="foto"></li>
-                            <li class="galeria-descripcion-items nombre"><p>nombre</p></li>
-                            <li class="galeria-descripcion-items precio"><p>precio</p></li>
-                            <li class="galeria-descripcion-items ver-producto"><a href="#">ver producto</a></li>
-                        </ul>
-                    </div>
-                    <div class="galeria-descripcion">
-                        <ul class="galeria-descripcion-articulo">
-                            <li class="galeria-descripcion-items img"><img src="../img/unsplash_1VV1MRafd7A.png" alt="objeto" class="foto"></li>
-                            <li class="galeria-descripcion-items nombre"><p>nombre</p></li>
-                            <li class="galeria-descripcion-items precio"><p>precio</p></li>
-                            <li class="galeria-descripcion-items ver-producto"><a href="#">ver producto</a></li>
-                        </ul>
-                    </div> 
+                <div star-div class="galeria-star">                    
                 </div>
         </section>
+
         <section class="galeria-dos">
             <div class="galeria-nombre">
                 <h1 class="galeria-titulo"> CONSOLAS</h1>
-                <a href="#" class="galeria-vertodo">Ver todo</a>
+                <a href="allProduct.html" class="galeria-vertodo">Ver todo</a>
             </div>
-                <div class="galeria-consolas">
-                    <div class="galeria-descripcion">
-                        <ul class="galeria-descripcion-articulo">
-                            <li class="galeria-descripcion-items img"><img src="../img/unsplash_4OHkK555s1A.png" alt="objeto" class="foto"></li>
-                            <li class="galeria-descripcion-items nombre"><p>nombre</p></li>
-                            <li class="galeria-descripcion-items precio"><p>precio</p></li>
-                            <li class="galeria-descripcion-items ver-producto"><a href="#">ver producto</a></li>
-                        </ul>
-                    </div>
+                <div consolas-div class="galeria-consolas"> 
                 </div>
         </section>
+
         <section class="galeria-tres">
             <div class="galeria-nombre">
                 <h1 class="galeria-titulo"> DIVERSOS</h1>
-                <a href="#" class="galeria-vertodo">Ver todo</a>
+                <a href="allProduct.html" class="galeria-vertodo">Ver todo</a>
             </div>
-                <div class="galeria-diversos">
-                    <div class="galeria-descripcion">
-                        <ul class="galeria-descripcion-articulo">
-                            <li class="galeria-descripcion-items img"><img src="../img/unsplash_6FDXGY9J6y4.png" alt="objeto" class="foto"></li>
-                            <li class="galeria-descripcion-items nombre"><p>nombre</p></li>
-                            <li class="galeria-descripcion-items precio"><p>precio</p></li>
-                            <li class="galeria-descripcion-items ver-producto"><a href="#">ver producto</a></li>
-                        </ul>
-                    </div>
+                <div diversos-div class="galeria-diversos">
                 </div>
         </section>        
     </main>
@@ -139,8 +77,8 @@
             <div class="pie-formulario">
                 <form class="pie-formulario-form">
                     <p>Hable con Nosotros</p>  
-                    <input type="text" id="nombre" class="input-padron" placeholder="Nombre y Apellido" required>
-                    <textarea id="mensaje" cols="70" rows="3" class="input-padron" placeholder="Escribe un Mensaje"></textarea>
+                    <input type="text" id="nombre" class="input-padron" placeholder="Nombre y Apellido" maxlength="40" required pattern="^(?=.*?[a-zA-Z]{3})(?!.*[0-9]).{3,}$" title="No se permiten numeros mi caracteres especiales">
+                    <textarea id="mensaje" cols="70" rows="3" class="input-padron" placeholder="Escribe un Mensaje" maxlength="120" required></textarea>
                     <input type="submit" class="botones formulario-btn" value="Enviar Mensaje">
                 </form>
             </div>
@@ -151,6 +89,7 @@
             <p>2022</p>
         </div>
     </footer>
-    
+<script src="../js/footer.js"></script>
+<script type="module" src="../js/index.js"></script>
 </body>
 </html>

@@ -27,9 +27,9 @@
     <div class="login-contenedor">
         <form class="loguin-form">
             <h1 class="login-titulo">Iniciar Sesion</h1>
-            <input type="text" id="correo" class="login-item" placeholder="Correo Electronico" required>
-            <input type="text" id="clave" class="login-item" placeholder="Clave de Ingreso" required>
-            <input type="submit" class="botones login-btn login-item" value="Entrar">
+            <input type="email" id="correo" class="login-item" placeholder="Correo Electronico" required>
+            <input type="password" id="clave" class="login-item" placeholder="Clave de Ingreso" required>
+            <input type="submit"  id="btn-Login" class="botones login-btn login-item" value="Entrar">
         </form>
     </div>
 </section>
@@ -53,8 +53,8 @@
         <div class="pie-formulario">
             <form class="pie-formulario-form">
                 <p>Hable con Nosotros</p>  
-                <input type="text" id="nombre" class="input-padron" placeholder="Nombre y Apellido" required>
-                <textarea id="mensaje" cols="70" rows="3" class="input-padron" placeholder="Escribe un Mensaje"></textarea>
+                <input type="text" id="nombre" class="v" placeholder="Nombre y Apellido" maxlength="40" required pattern="^(?=.*?[a-zA-Z]{3})(?!.*[0-9]).{3,}$" title="No se permiten numeros mi caracteres especiales">
+                <textarea id="mensaje" cols="70" rows="3" class="input-padron" placeholder="Escribe un Mensaje" maxlength="120" required></textarea>
                 <input type="submit" class="botones formulario-btn" value="Enviar Mensaje">
             </form>
         </div>
@@ -65,5 +65,8 @@
         <p>2022</p>
     </div>
 </footer>
+<script src="../js/validaciones.js"></script>
+<script src="../js/footer.js"></script>
+<script src="../consult/login.js"></script>
 </body>
 </html>

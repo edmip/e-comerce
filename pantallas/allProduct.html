@@ -7,41 +7,33 @@
     <link rel="stylesheet" href="..//css/colores.css">
     <link rel="stylesheet" href="../css/general.css">
     <link rel="stylesheet" href="../css/cabecera.css">
+    <link rel="stylesheet" href="../css/galeria.css">
+    <link rel="stylesheet" href="../css/allProduct.css">
     <link rel="stylesheet" href="../css/footer.css">
-    <link rel="stylesheet" href="../css/addProduct.css">
-    <title>Agregar Producto</title>
+    <title>Todos los Productos</title>
 </head>
 <body>
-    <!-- CABECERA--> 
-    <header id="cabecera">
-        <nav>
-            <ul id="cabecera-lista">
-                <li class="cabecera-items"><a href="/pantallas/index.html"><img src="../img/Logo.png" alt="logo"></a></li>
-                <li class="cabecera-items"><img src="../img/Barra_de_busqueda.png" alt="busqueda"></li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- SECCIONES DE FORMULARIO AGREGAR PRODUCTO-->
+        <!-- CABECERA--> 
+        <header id="cabecera">
+            <nav>
+                <ul id="cabecera-lista">
+                    <li class="cabecera-items"><a href="/pantallas/index.html"><img src="../img/Logo.png" alt="logo"></a></li>
+                    <li class="cabecera-items"><img src="../img/Barra_de_busqueda.png" alt="busqueda"></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <!-- SECCIONES DE GALERIA-->
     <main>
-        <div class="contenedor-agregar">
-            <form id="formProducto" class="agregar-formulario">
-                <h1 class="agregar-titulo">Agregar Producto</h1>
-                <img id="imgPreview" onerror="javascript:getImage('../img/404.jpg')">
-                <input type="file" id="seleccionArchivos" class="agregar" accept="image/png, .jpeg, .jpg">
-                <input type="text" id="url" class="input-padron agregar" placeholder="URL de la imagen">
-                <select name="combo" id="categoria" class="selec">
-                    <option value="1" selected>Star Wars</option><!-- Opción por defecto -->
-                    <option value="2">Consolas</option> 
-                    <option value="3">Diversos</option>
-                  </select>
-                <input type="text" id="nombreProduct" class="input-padron agregar" maxlength="20" placeholder="Nombre del Producto" required>
-                <input type="number" id="precioProduct" class="input-padron agregar" placeholder="Precio del Producto" required>
-                <textarea id="mensaje" rows="2" class="input-padron agregar" maxlength="150" placeholder="descripcion del producto" required></textarea>
-                <input type="submit" id="btn-agragar" class="botones formulario-btn" value="Agregregar Producto">
-            </form>
-        </div>     
+        <section class="galeria-uno">
+                <div class="galeria-nombre">
+                    <h1 class="galeria-titulo"> TODOS LOS PRODUCTOS</h1>
+                </div>
+                <div todos-div class="galeria-star galeria-todos">                    
+                </div>
+        </section>   
     </main>
+
 
     <!-- PIE DE PAGINA-->
     <footer>
@@ -74,7 +66,6 @@
             <p>2022</p>
         </div>
     </footer>
-    <script src="../js/imgCargarProduc.js"></script>
-    <script src="../js/footer.js"></script>
+    <script type="module" src="../js/allProduct.js"></script>
 </body>
 </html>

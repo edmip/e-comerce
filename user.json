@@ -1,0 +1,177 @@
+{
+    "perfil":[
+        
+        {
+            "correo": "quito@gmail.com",
+            "password": "ecuador"
+
+        },
+        {
+            
+            "correo": "quitoo@gmail.com",
+            "password": "eecuador"
+        }
+        
+    ],
+
+    "starWard":[
+        
+        {
+            "url": "../img/star/mini.png",
+            "nombre": "ecuador",
+            "precio": "10.00",
+            "id": 1    
+        },
+        {
+            "url": "../img/star/jarra.png",
+            "nombre": "ecuador",
+            "precio": "5.00",
+            "id": 2
+        },
+        {
+            "url": "../img/star/soldado.png",
+            "nombre": "ecuador",
+            "precio": "20.00",
+            "id": 3
+
+        },
+        {
+            "url": "../img/star/zor.png",
+            "nombre": "ecuador",
+            "precio": "25.00",
+            "id": 4
+        },
+        {
+            "url": "../img/star/viejo.png",
+            "nombre": "ecuador",
+            "precio": "15.00",
+            "id": 5
+        },
+        {
+            "url": "../img/star/yedi.png",
+            "nombre": "ecuador",
+            "precio": "16.00",
+            "id": 6
+        }
+    ],
+    
+    "consolas":[
+        
+        {
+            "url": "../img/consolas/360.png",
+            "nombre": "ps5",
+            "precio": "60.00",
+            "id": 7
+
+        },
+        {
+            "url": "../img/consolas/consola.png",
+            "nombre": "exbox360",
+            "precio": "50.00",
+            "id": 8
+        },
+        {
+            "url": "../img/consolas/mando.png",
+            "nombre": "nintendo",
+            "precio": "100.00",
+            "id": 9
+
+        },
+        {
+            "url": "../img/consolas/nintendo.png",
+            "nombre": "control",
+            "precio": "20.00",
+            "id": 10
+        },
+        {
+            "url": "../img/consolas/switch.png",
+            "nombre": "nintendo switch",
+            "precio": "200.00",
+            "id": 11
+        },
+        {
+            "url": "../img/consolas/xbox.png",
+            "nombre": "nintendo ds",
+            "precio": "30.00",
+            "id": 12
+        },
+        {
+            "url": "../img/consolas/360.png",
+            "nombre": "ps5",
+            "precio": "60.00",
+            "id": 7
+
+        },
+        {
+            "url": "../img/consolas/consola.png",
+            "nombre": "exbox360",
+            "precio": "50.00",
+            "id": 8
+        },
+        {
+            "url": "../img/consolas/mando.png",
+            "nombre": "nintendo",
+            "precio": "100.00",
+            "id": 9
+
+        },
+        {
+            "url": "../img/consolas/nintendo.png",
+            "nombre": "control",
+            "precio": "20.00",
+            "id": 10
+        },
+        {
+            "url": "../img/consolas/switch.png",
+            "nombre": "nintendo switch",
+            "precio": "200.00",
+            "id": 11
+        },
+        {
+            "url": "../img/consolas/xbox.png",
+            "nombre": "nintendo ds",
+            "precio": "30.00",
+            "id": 12
+        }
+    ],
+
+    "diversos":[
+        
+        {
+            "url": "../img/diversos/sony.png",
+            "nombre": "ecuador",
+            "precio": "ecuador",
+            "id": 13
+        },
+        {
+            "url": "../img/diversos/cuadrado.jpg",
+            "nombre": "ecuador",
+            "precio": "ecuador",
+            "id": 14
+        },
+        {
+            "url": "../img/diversos/logo.png",
+            "nombre": "ecuador",
+            "precio": "ecuador",
+            "id": 15
+        },
+        {
+            "url": "../img/diversos/pika.png",
+            "nombre": "ecuador",
+            "precio": "ecuador",
+            "id": 16
+        },
+        {
+            "url": "../img/diversos/reloj.png",
+            "nombre": "ecuador",
+            "precio": "ecuador",
+            "id": 17
+        },
+        {
+            "url": "../img/diversos/br.png",
+            "nombre": "ecuador",
+            "precio": "ecuador",
+            "id": 18
+        }
+    ]  
+}

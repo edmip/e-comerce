@@ -30,8 +30,12 @@ main{
 .agregar{
     margin-bottom: 1rem;
     line-height: 3;
-    
 }
+#categoria{
+    margin-bottom: 1rem;
+    padding: 0.7rem 0;   
+}
+
 
 #btn-agragar{
     width: 100%;
