@@ -1,7 +1,8 @@
 const $seleccionArchivos = document.querySelector("#seleccionArchivos"),
       $imagenPrevisualizacion = document.querySelector("#imgPreview"),
       $urlImagen = document.querySelector("#url");
-      const formAddProduct = document.querySelector('#formProducto'); 
+      const formAddProduct = document.querySelector("[data-form]");
+       
 
 // Escuchar cuando cambie
 $seleccionArchivos.addEventListener("change", () => {
@@ -26,8 +27,8 @@ $seleccionArchivos.addEventListener("change", () => {
 
     //vaciamos el input de url para q se qde vacio
     $urlImagen.value = "";
-    console.log(objectURL);
-    console.log($imagenPrevisualizacion.name);
+    //console.log(objectURL);
+    //console.log($imagenPrevisualizacion.name);
     $urlImagen.value = objectURL;
   }
 
@@ -53,8 +54,41 @@ function getImage(imgUrl) {
 
 }
 
+
+
+
+
+ ///////////////////////////FUNCION PARA AGREGAR EL PRODUCTO EN LA BASE//////////////////////////////
+
 formAddProduct.addEventListener('submit', (e) => {
   e.preventDefault();
+  const imagenProduct = $imagenPrevisualizacion.src;
+  const categoryProduct = document.querySelector("#categoria").value;
+  const nomProduct = document.querySelector("#nombreProduct").value;
+  const priceProduct = document.querySelector("#precioProduct").value;
+  const descripProduct = document.querySelector("#mensaje").value;
+  //console.log(imagenProduct+ " -- " + categoryProduct+ "-- " +nomProduct+ " -- " +priceProduct+ " -- " +descripProduct);
   
+  crearProduct(imagenProduct, categoryProduct, nomProduct, priceProduct, descripProduct)
+  .then(respuesta => {
+    alert("Producto Agregado Satisfactoriamente.!!  {^_^}/");
+  }).catch((error) => console.log(error));
 });
+
+
+const crearProduct = (url, category, nombre, precio, description) => {
+
+  let categoria="";
+  if(category==1) categoria = "starWard";
+  if(category==2) categoria = "consolas";
+  if(category==3) categoria = "diversos";
+
+  return fetch (`http://localhost:3000/${categoria}`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({url, nombre, precio, description, id: uuid.v4()}),
+  });
+};
 
