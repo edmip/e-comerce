@@ -88,7 +88,7 @@ const crearProduct = (url, category, nombre, precio, description) => {
     headers: {
       "Content-Type": "application/json",
     },
-    body: JSON.stringify({url, nombre, precio, description, id: uuid.v4()}),
+    body: JSON.stringify({url, nombre, precio, categoria, description, id: uuid.v4()}),
   });
 };
 

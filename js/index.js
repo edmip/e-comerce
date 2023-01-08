@@ -22,19 +22,8 @@ const crearNuevaLinea = (img, nombre, precio)=>{
 };
 
 
-/////////////////----------HACIENDO LA FUNCION DE LLAMADO--------------//////////////////////
-/*const serverCall = (seccion, div)=>{
-  fetch(`http://localhost:3000/${seccion}`)
-  .then(response => response.json())
-  .then(data => {
-  
-    data.forEach((element) => {
-     const nuevaLinea = crearNuevaLinea(element.url, element.nombre, element.precio);
-     div.appendChild(nuevaLinea);
-    });
-  });
-};*/
 
+/////////////////----------HACIENDO LA FUNCION DE LLAMADO--------------//////////////////////
 const serverCall = async (seccion, div)=>{
   const response = await fetch(`http://localhost:3000/${seccion}`);
   const cambio = await response.json();

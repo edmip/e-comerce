@@ -30,80 +30,7 @@
                     <h1 class="galeria-titulo"> Todos los Productos</h1>
                     <a  href="/pantallas/addProduc.html" id="banner-boton" class="botones">Agregar Productos</a>
                 </div>
-                <div class="galeria-star">
-                    <div class="galeria-descripcion">
-                        <ul class="galeria-descripcion-articulo">
-                            <li class="galeria-descripcion-items foto"><img src="../img/unsplash_1VV1MRafd7A.png" alt="objeto"></li>
-                            <li class="galeria-descripcion-items nombre"><p>nombre</p></li>
-                            <li class="galeria-descripcion-items precio"><p>precio</p></li>
-                            <li class="galeria-descripcion-items ver-producto"><a href="#">ver producto</a></li>
-                        </ul>
-                    </div>
-                    <div class="galeria-descripcion">
-                        <ul class="galeria-descripcion-articulo">
-                            <li class="galeria-descripcion-items foto"><img src="../img/unsplash_1VV1MRafd7A.png" alt="objeto"></li>
-                            <li class="galeria-descripcion-items nombre"><p>nombre</p></li>
-                            <li class="galeria-descripcion-items precio"><p>precio</p></li>
-                            <li class="galeria-descripcion-items ver-producto"><a href="#">ver producto</a></li>
-                        </ul>
-                    </div>
-                    <div class="galeria-descripcion">
-                        <ul class="galeria-descripcion-articulo">
-                            <li class="galeria-descripcion-items foto"><img src="../img/unsplash_1VV1MRafd7A.png" alt="objeto"></li>
-                            <li class="galeria-descripcion-items nombre"><p>nombre</p></li>
-                            <li class="galeria-descripcion-items precio"><p>precio</p></li>
-                            <li class="galeria-descripcion-items ver-producto"><a href="#">ver producto</a></li>
-                        </ul>
-                    </div>
-                    <div class="galeria-descripcion">
-                        <ul class="galeria-descripcion-articulo">
-                            <li class="galeria-descripcion-items foto"><img src="../img/unsplash_1VV1MRafd7A.png" alt="objeto"></li>
-                            <li class="galeria-descripcion-items nombre"><p>nombre</p></li>
-                            <li class="galeria-descripcion-items precio"><p>precio</p></li>
-                            <li class="galeria-descripcion-items ver-producto"><a href="#">ver producto</a></li>
-                        </ul>
-                    </div>
-                    <div class="galeria-descripcion">
-                        <ul class="galeria-descripcion-articulo">
-                            <li class="galeria-descripcion-items foto"><img src="../img/unsplash_1VV1MRafd7A.png" alt="objeto"></li>
-                            <li class="galeria-descripcion-items nombre"><p>nombre</p></li>
-                            <li class="galeria-descripcion-items precio"><p>precio</p></li>
-                            <li class="galeria-descripcion-items ver-producto"><a href="#">ver producto</a></li>
-                        </ul>
-                    </div>
-                    <div class="galeria-descripcion">
-                        <ul class="galeria-descripcion-articulo">
-                            <li class="galeria-descripcion-items foto"><img src="../img/unsplash_1VV1MRafd7A.png" alt="objeto"></li>
-                            <li class="galeria-descripcion-items nombre"><p>nombre</p></li>
-                            <li class="galeria-descripcion-items precio"><p>precio</p></li>
-                            <li class="galeria-descripcion-items ver-producto"><a href="#">ver producto</a></li>
-                        </ul>
-                    </div> 
-                </div>
-        </section>
-        <section class="galeria-dos">
-            
-                <div class="galeria-consolas">
-                    <div class="galeria-descripcion">
-                        <ul class="galeria-descripcion-articulo">
-                            <li class="galeria-descripcion-items foto"><img src="../img/unsplash_4OHkK555s1A.png" alt="objeto"></li>
-                            <li class="galeria-descripcion-items nombre"><p>nombre</p></li>
-                            <li class="galeria-descripcion-items precio"><p>precio</p></li>
-                            <li class="galeria-descripcion-items ver-producto"><a href="#">ver producto</a></li>
-                        </ul>
-                    </div>
-                </div>
-        </section>
-        <section class="galeria-tres">
-                <div class="galeria-diversos">
-                    <div class="galeria-descripcion">
-                        <ul class="galeria-descripcion-articulo">
-                            <li class="galeria-descripcion-items foto"><img src="../img/unsplash_6FDXGY9J6y4.png" alt="objeto"></li>
-                            <li class="galeria-descripcion-items nombre"><p>nombre</p></li>
-                            <li class="galeria-descripcion-items precio"><p>precio</p></li>
-                            <li class="galeria-descripcion-items ver-producto"><a href="#">ver producto</a></li>
-                        </ul>
-                    </div>
+                <div todos-div class="galeria-star galeria-todos">                    
                 </div>
         </section>        
     </main>
@@ -129,7 +56,7 @@
                     <p>Hable con Nosotros</p>  
                     <input type="text" id="nombre" class="input-padron" placeholder="Nombre y Apellido" required>
                     <textarea id="mensaje" cols="70" rows="3" class="input-padron" placeholder="Escribe un Mensaje"></textarea>
-                    <input type="submit" class="botones formulario-btn" value="Enviar Mensaje">
+                    <input type="button" class="botones formulario-btn" value="Enviar Mensaje">
                 </form>
             </div>
 
@@ -140,5 +67,8 @@
         </div>
     </footer>
     
+    <script type="module" src="../js/admin.js"></script>
+    <script type="module" src="../js/productController.js"></script>
+    <script src="../js/footer.js"></script>
 </body>
 </html>
