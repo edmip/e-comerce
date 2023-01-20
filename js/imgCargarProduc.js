@@ -1,3 +1,5 @@
+import { exportar } from "./productController.js";
+
 const $seleccionArchivos = document.querySelector("#seleccionArchivos"),
       $imagenPrevisualizacion = document.querySelector("#imgPreview"),
       $urlImagen = document.querySelector("#url");
@@ -58,8 +60,6 @@ function getImage(imgUrl) {
 
 
 
- ///////////////////////////FUNCION PARA AGREGAR EL PRODUCTO EN LA BASE//////////////////////////////
-
 formAddProduct.addEventListener('submit', (e) => {
   e.preventDefault();
   const imagenProduct = $imagenPrevisualizacion.src;
@@ -69,26 +69,9 @@ formAddProduct.addEventListener('submit', (e) => {
   const descripProduct = document.querySelector("#mensaje").value;
   //console.log(imagenProduct+ " -- " + categoryProduct+ "-- " +nomProduct+ " -- " +priceProduct+ " -- " +descripProduct);
   
-  crearProduct(imagenProduct, categoryProduct, nomProduct, priceProduct, descripProduct)
+  exportar.crearProduct(imagenProduct, categoryProduct, nomProduct, priceProduct, descripProduct)
   .then(respuesta => {
     alert("Producto Agregado Satisfactoriamente.!!  {^_^}/");
   }).catch((error) => console.log(error));
 });
-
-
-const crearProduct = (url, category, nombre, precio, description) => {
-
-  let categoria="";
-  if(category==1) categoria = "starWard";
-  if(category==2) categoria = "consolas";
-  if(category==3) categoria = "diversos";
-
-  return fetch (`http://localhost:3000/${categoria}`, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({url, nombre, precio, categoria, description, id: uuid.v4()}),
-  });
-};
 

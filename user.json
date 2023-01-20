@@ -11,115 +11,40 @@
   ],
   "starWard": [
     {
-      "url": "../img/star/mini.png",
-      "nombre": "ecuador",
-      "precio": "10.00",
-      "categoria": 1,
-      "id": 1
-    },
-    {
       "url": "../img/star/jarra.png",
-      "nombre": "ecuador",
-      "precio": "5.00",
-      "categoria": "starWard",
-      "id": 2
-    },
-    {
-      "url": "../img/star/soldado.png",
-      "nombre": "ecuador",
-      "precio": "20.00",
-      "categoria": "starWard",
-      "id": 3
-    },
-    {
-      "url": "https://definicion.de/wp-content/uploads/2011/01/casa-1.jpg",
-      "nombre": "casa",
-      "precio": "5654",
-      "description": "casa grandotaaaa",
-      "categoria": "starWard",
-      "id": "709204a7-6c74-41ad-9391-db19ed156ca0"
+      "nombre": "jarra",
+      "precio": "20",
+      "category": "1",
+      "description": "bonita jarra",
+      "id": "07fdc1ac-9068-453c-8957-ea26a37f051d"
     }
   ],
   "consolas": [
     {
-      "url": "../img/consolas/360.png",
-      "nombre": "ps5",
-      "precio": "60.00",
-      "categoria": "consolas",
-      "id": 7
-    },
-    {
-      "url": "../img/consolas/consola.png",
-      "nombre": "exbox360",
-      "precio": "50.00",
-      "categoria": "consolas",
-      "id": 8
-    },
-    {
-      "url": "../img/consolas/mando.png",
-      "nombre": "nintendo",
-      "precio": "100.00",
-      "categoria": "consolas",
-      "id": 9
-    },
-    {
-      "url": "../img/consolas/nintendo.png",
-      "nombre": "control",
-      "precio": "20.00",
-      "categoria": "consolas",
-      "id": 10
-    },
-    {
-      "url": "../img/consolas/switch.png",
-      "nombre": "nintendo switch",
-      "precio": "200.00",
-      "categoria": "consolas",
-      "id": 11
-    },
-    {
-      "url": "../img/consolas/xbox.png",
-      "nombre": "nintendo ds",
-      "precio": "30.00",
-      "categoria": "consolas",
-      "id": 12
-    },
-    {
-      "url": "blob:http://127.0.0.1:5500/06825ae4-b67f-4fe8-b7af-62ab14a4b687",
-      "nombre": "numeros",
-      "precio": "220",
+      "url": "blob:http://127.0.0.1:5500/6a97c9e1-6a1d-4798-a58d-891c5c8076c5",
+      "nombre": "xbox",
+      "precio": "25",
       "category": "2",
-      "description": "aprender  umeros",
-      "id": "0aa9d797-fdef-434a-ba3c-ed352f766210"
+      "description": "bonito xbox",
+      "id": "0d94025d-37cf-4dc0-9456-98e93667fddf"
     }
   ],
   "diversos": [
     {
-      "url": "../img/diversos/sony.png",
-      "nombre": "ecuador",
-      "precio": "ecuador",
-      "categoria": "diversos",
-      "id": 13
+      "url": "blob:http://127.0.0.1:5500/c0111115-d242-420c-a7ff-c9f475c0c795",
+      "nombre": "pikachu",
+      "precio": "16",
+      "category": "3",
+      "description": "traje de pika",
+      "id": "a5cad8ed-9017-4e7a-964a-550715275a50"
     },
     {
-      "url": "../img/diversos/cuadrado.jpg",
-      "nombre": "ecuador",
-      "precio": "ecuador",
-      "categoria": "diversos",
-      "id": 14
-    },
-    {
-      "url": "../img/diversos/logo.png",
-      "nombre": "ecuador",
-      "precio": "ecuador",
-      "categoria": "diversos",
-      "id": 15
-    },
-    {
-      "url": "../img/diversos/pika.png",
-      "nombre": "ecuador",
-      "precio": "ecuador",
-      "categoria": "diversos",
-      "id": 16
+      "url": "blob:http://127.0.0.1:5500/b4cea6ba-9a8c-4e57-aacc-90ed2e47dc04",
+      "nombre": "figuras geometricas",
+      "precio": "10",
+      "category": "3",
+      "description": "imagenes para aprender",
+      "id": "a1d9b184-ffc2-45a2-a79b-0571ab2f8176"
     }
   ]
 }

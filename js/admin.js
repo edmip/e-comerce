@@ -18,33 +18,45 @@ const crearNuevaLinea = (img, nombre, precio, id, categoria)=>{
               <li class="galeria-descripcion-items ver-producto"><a href="#">ver producto</a></li>
           </ul>`;
   
-    
-    div.innerHTML = content;
+
+ div.innerHTML = content;
+ 
+/////////////////-------LLAMANDO A LA FUNCION DE ELIMINAR--------//////////////////////
+   
     const btnBorrar = div.querySelector("[borrar-img]");
     btnBorrar.addEventListener("click", (e) =>{
         e.preventDefault();
         const idProducto = btnBorrar.id;
         const categoriaProducto = btnBorrar.alt;
-        console.log(categoriaProducto)
-        console.log(idProducto)
+        console.log(categoriaProducto);
 
-       exportar.eliminarProduct(categoriaProducto, idProducto);
+        exportar.eliminarProduct(categoriaProducto, idProducto);
     });
+
+    /////////////////-------FUNCION DEL BOTON EDITAR--------//////////////////////
+  const btnEditar = div.querySelector("[editar-img]");
+  btnEditar.addEventListener("click", (e) =>{
+    window.location.href = `../pantallas/editProduct.html?id=${id}&cat=${categoria}`;
+    //const idProducto = btnBorrar.id;
+    //const categoriaProducto = btnBorrar.alt;
+    console.log(categoriaProducto)
+    console.log(idProducto)
+  });
 
 
     return div;
-  };
+};
 
 
 
   /////////////////----------HACIENDO LA FUNCION DE LLAMADO--------------//////////////////////
-const serverCall = async (seccion, div)=>{
+  const serverCall = async (seccion, div)=>{
     const response = await fetch(`http://localhost:3000/${seccion}`);
     const cambio = await response.json();
     cambio.forEach((element) => {
-       const nuevaLinea = crearNuevaLinea(element.url, element.nombre, element.precio, element.id, element.categoria);
-       div.appendChild(nuevaLinea);
-      });
+      const nuevaLinea = crearNuevaLinea(element.url, element.nombre, element.precio, element.id, element.category);
+      div.appendChild(nuevaLinea);
+    });
   };
 
   /////////////////-------HACIENDO LLAMADO PARA CADA SECCION------//////////////////////
@@ -55,6 +67,5 @@ serverCall("diversos",divTodos);
 
 
 
-//////////////////////FUNCION DE BORRAR ELEMENTO DE LA BASE///////////////////////
 
 
