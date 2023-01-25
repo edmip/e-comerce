@@ -22,10 +22,10 @@
         </nav>
     </header>
 
-    <!-- SECCIONES DE FORMULARIO AGREGAR PRODUCTO-->
+    <!-- SECCIONES DE FORMULARIO EDITAR PRODUCTO-->
     <main>
         <div class="contenedor-agregar">
-            <form id="formProducto" class="agregar-formulario" data-form>
+            <form id="formProducto" class="agregar-formulario" data-form-edit>
                 <h1 class="agregar-titulo">Agregar Producto</h1>
                 <img id="imgPreview" onerror="javascript:getImage('../img/404.jpg')">
                 <input type="file" id="seleccionArchivos" class="agregar" accept="image/png, .jpeg, .jpg">
@@ -36,7 +36,7 @@
                     <option value="3">Diversos</option>
                   </select>
                 <input type="text" id="nombreProduct" class="input-padron agregar" maxlength="20" placeholder="Nombre del Producto" required>
-                <input type="number" id="precioProduct" class="input-padron agregar" placeholder="Precio del Producto" required>
+                <input type="number" id="precioProduct" class="input-padron agregar" step="0.01" placeholder="Precio del Producto" required>
                 <textarea id="mensaje" rows="2" class="input-padron agregar" maxlength="150" placeholder="descripcion del producto" required></textarea>
                 <input type="submit" id="btn-agragar" class="botones formulario-btn" value="Editar Producto">
             </form>
@@ -45,9 +45,17 @@
 
     <!-- PIE DE PAGINA-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="../js/imgCargarProduc.js"></script>
+    <script type="module" src="../js/imgCargarProduc.js"></script>
     <script type="module" src="../js/productController.js"></script>
     <script type="module" src="../js/editProduct.js"></script>
+    <script>function getImage(imgUrl) {
+  
+        var img = event.srcElement;
+      
+        img.src = imgUrl;
+      
+      }
+    </script>
     
 </body>
 </html>

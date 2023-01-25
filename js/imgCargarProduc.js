@@ -29,8 +29,6 @@ $seleccionArchivos.addEventListener("change", () => {
 
     //vaciamos el input de url para q se qde vacio
     $urlImagen.value = "";
-    //console.log(objectURL);
-    //console.log($imagenPrevisualizacion.name);
     $urlImagen.value = objectURL;
   }
 
@@ -45,17 +43,6 @@ $urlImagen.addEventListener("keyup", () => {
     $imagenPrevisualizacion.src = $urlImagen.value;
     $seleccionArchivos.value="";
 });
-
-
-//FUNCION PARA ERROR 404 EN IMAGEN
-function getImage(imgUrl) {
-  
-  var img = event.srcElement;
-
-  img.src = imgUrl;
-
-}
-
 
 
 

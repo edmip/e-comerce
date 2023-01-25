@@ -12,39 +12,151 @@
   "starWard": [
     {
       "url": "../img/star/jarra.png",
-      "nombre": "jarra",
-      "precio": "20",
+      "nombre": "jarra blanca",
+      "precio": "16",
       "category": "1",
-      "description": "bonita jarra",
+      "description": "bonita jarra blanca de espectaculo",
       "id": "07fdc1ac-9068-453c-8957-ea26a37f051d"
+    },
+    {
+      "url": "../img/star/mini.png",
+      "nombre": "BB joda",
+      "precio": "16",
+      "category": "1",
+      "description": "lindo bb",
+      "id": "8a91dbb4-a0bb-440d-8163-2264321906a6"
+    },
+    {
+      "url": "../img/star/soldado.png",
+      "nombre": "soldado",
+      "precio": "15.5",
+      "category": "1",
+      "description": "soldao blanco de star",
+      "id": "5e7bb1bb-aa8f-4e5b-8479-b53c603b20e4"
+    },
+    {
+      "url": "../img/star/viejo.png",
+      "nombre": "figura joda",
+      "precio": "23.1",
+      "category": "1",
+      "description": "figura 30cm de joda",
+      "id": "4eb8a596-90b5-45b8-9287-ece390637fa2"
+    },
+    {
+      "url": "../img/star/yedi.png",
+      "nombre": "jedi malvado",
+      "precio": "26",
+      "category": "1",
+      "description": "imagen 3d jedi malvado",
+      "id": "b898d378-c52e-4551-8436-68bd6c5b589a"
+    },
+    {
+      "url": "../img/star/zor.png",
+      "nombre": "cabezas de zor",
+      "precio": "19.5",
+      "category": "1",
+      "description": "cabezas de adorno",
+      "id": "36216336-47c5-4f43-889c-759fd83c647e"
     }
   ],
   "consolas": [
     {
-      "url": "blob:http://127.0.0.1:5500/6a97c9e1-6a1d-4798-a58d-891c5c8076c5",
+      "url": "../img/consolas/360.png",
       "nombre": "xbox",
-      "precio": "25",
+      "precio": "350.00",
       "category": "2",
       "description": "bonito xbox",
       "id": "0d94025d-37cf-4dc0-9456-98e93667fddf"
+    },
+    {
+      "url": "../img/consolas/consola.png",
+      "nombre": "consola video juego",
+      "precio": "60.00",
+      "category": "2",
+      "description": "consola antigua",
+      "id": "12141b55-b2b3-49a9-97d1-4af818e9377b"
+    },
+    {
+      "url": "../img/consolas/mando.png",
+      "nombre": "mando xbox",
+      "precio": "21.00",
+      "category": "2",
+      "description": "mando para jugar xbox",
+      "id": "f642d492-101a-44ec-9d70-85bbc6ae75ae"
+    },
+    {
+      "url": "../img/consolas/nintendo.png",
+      "nombre": "nintendo de mano",
+      "precio": "37.00",
+      "category": "2",
+      "description": "nintendo ds de mano antiguo",
+      "id": "df1da829-92fd-4603-8f12-97462f48f76c"
+    },
+    {
+      "url": "../img/consolas/switch.png",
+      "nombre": "nintendo switch",
+      "precio": "450.00",
+      "category": "2",
+      "description": "nintendo switch de paquete",
+      "id": "23da6b82-0910-4fc9-acf7-115aba66323a"
+    },
+    {
+      "url": "../img/consolas/xbox.png",
+      "nombre": "xbox 360",
+      "precio": "120.00",
+      "category": "1",
+      "description": "xbox 360 en buen estado",
+      "id": "cd605abf-e771-45c4-a24a-fe68cc92ce46"
     }
   ],
   "diversos": [
     {
-      "url": "blob:http://127.0.0.1:5500/c0111115-d242-420c-a7ff-c9f475c0c795",
-      "nombre": "pikachu",
-      "precio": "16",
+      "url": "../img/diversos/br.png",
+      "nombre": "br 3d",
+      "precio": "16.00",
       "category": "3",
-      "description": "traje de pika",
+      "description": "visor br",
       "id": "a5cad8ed-9017-4e7a-964a-550715275a50"
     },
     {
-      "url": "blob:http://127.0.0.1:5500/b4cea6ba-9a8c-4e57-aacc-90ed2e47dc04",
-      "nombre": "figuras geometricas",
-      "precio": "10",
+      "url": "../img/diversos/cuadrado.jpg",
+      "nombre": "Cuadrado",
+      "precio": "5.00",
       "category": "3",
-      "description": "imagenes para aprender",
+      "description": "cuadrado bonito",
       "id": "a1d9b184-ffc2-45a2-a79b-0571ab2f8176"
+    },
+    {
+      "url": "../img/diversos/logo.png",
+      "nombre": "logo chino",
+      "precio": "7.00",
+      "category": "3",
+      "description": "pancarta de logo chino",
+      "id": "9656d9c5-34bb-461e-9851-094ce29de202"
+    },
+    {
+      "url": "../img/diversos/pika.png",
+      "nombre": "traje de pikachu",
+      "precio": "39.00",
+      "category": "3",
+      "description": "gran traje de pikachu",
+      "id": "ec0928a4-8dcc-4331-b3ed-b7f3fa36808d"
+    },
+    {
+      "url": "../img/diversos/reloj.png",
+      "nombre": "reloj dijital",
+      "precio": "13.00",
+      "category": "3",
+      "description": "despertador digital",
+      "id": "440059cc-1169-4d8e-b1a1-8e3b760eb0b2"
+    },
+    {
+      "url": "../img/diversos/sony.png",
+      "nombre": "muñecoi de sonic",
+      "precio": "12.00",
+      "category": "3",
+      "description": "muñeco original de sonic",
+      "id": "c2f4d6ff-bf71-4d4c-94ec-6f470b6e942e"
     }
   ]
 }

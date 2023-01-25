@@ -1,5 +1,5 @@
-
-        
+import { exportar } from "./productController.js";
+const formEditProduct = document.querySelector("[data-form-edit]");     
 
 const obtenerInfo = async  ()=>{
     const url = new URL(window.location);
@@ -21,6 +21,7 @@ console.log(`http://localhost:3000/${categoria}/${id}`);
         if (respuesta.ok){
 
             const jsonRespuesta = await respuesta.json();
+
             const urlProduct = document.querySelector("#url"); 
             const categoryProduct = document.querySelector("#categoria");
             const nomProduct = document.querySelector("#nombreProduct");
@@ -44,3 +45,15 @@ console.log(`http://localhost:3000/${categoria}/${id}`);
 }
 
 obtenerInfo();
+
+formEditProduct.addEventListener("submit", (e) =>{
+    e.preventDefault();
+
+    const urlProduct = document.querySelector("#url").value; 
+    const categoryProduct = document.querySelector("#categoria").value;
+    const nomProduct = document.querySelector("#nombreProduct").value;
+    const priceProduct = document.querySelector("#precioProduct").value;
+    const descripProduct = document.querySelector("#mensaje").value;
+
+    exportar.editarProduct(urlProduct,categoryProduct,nomProduct,priceProduct,descripProduct);
+});
