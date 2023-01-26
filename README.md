@@ -22,6 +22,11 @@ Para ello están pidiendo nuestra ayuda como desarrolladores, el e-commerce debe
 ** Es muy importante que el sitio sea adaptable ** para que los clientes puedan comprar fácilmente a través de dispositivos móviles **
 
 
+<h4>Datos de Ingreso Admin:</h4>
+- `Correo:`quito@gmail.com
+- `Contraseña:`ecuador
+
+
 <h2>Vista Previa:</h2>
 
 ![AluraGeek index](https://user-images.githubusercontent.com/100251500/214721620-466abbcb-b52e-4afb-8a99-d8eb9066cb75.png)
@@ -52,3 +57,7 @@ Para ello están pidiendo nuestra ayuda como desarrolladores, el e-commerce debe
 - ` Flexbox`
 - ` Grid`
 - ` Creacion de Variables`
+
+
+
+:construction: Detalles aun en construcción :construction:
