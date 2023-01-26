@@ -13,7 +13,7 @@
     {
       "url": "../img/star/jarra.png",
       "nombre": "jarra blanca",
-      "precio": "16",
+      "precio": "16.00",
       "category": "1",
       "description": "bonita jarra blanca de espectaculo",
       "id": "07fdc1ac-9068-453c-8957-ea26a37f051d"
@@ -21,7 +21,7 @@
     {
       "url": "../img/star/mini.png",
       "nombre": "BB joda",
-      "precio": "16",
+      "precio": "14.00",
       "category": "1",
       "description": "lindo bb",
       "id": "8a91dbb4-a0bb-440d-8163-2264321906a6"
@@ -29,7 +29,7 @@
     {
       "url": "../img/star/soldado.png",
       "nombre": "soldado",
-      "precio": "15.5",
+      "precio": "15.50",
       "category": "1",
       "description": "soldao blanco de star",
       "id": "5e7bb1bb-aa8f-4e5b-8479-b53c603b20e4"
@@ -37,7 +37,7 @@
     {
       "url": "../img/star/viejo.png",
       "nombre": "figura joda",
-      "precio": "23.1",
+      "precio": "23.10",
       "category": "1",
       "description": "figura 30cm de joda",
       "id": "4eb8a596-90b5-45b8-9287-ece390637fa2"
@@ -45,7 +45,7 @@
     {
       "url": "../img/star/yedi.png",
       "nombre": "jedi malvado",
-      "precio": "26",
+      "precio": "26.00",
       "category": "1",
       "description": "imagen 3d jedi malvado",
       "id": "b898d378-c52e-4551-8436-68bd6c5b589a"
@@ -53,7 +53,7 @@
     {
       "url": "../img/star/zor.png",
       "nombre": "cabezas de zor",
-      "precio": "19.5",
+      "precio": "19.55",
       "category": "1",
       "description": "cabezas de adorno",
       "id": "36216336-47c5-4f43-889c-759fd83c647e"

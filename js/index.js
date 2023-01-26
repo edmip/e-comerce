@@ -13,7 +13,7 @@ const crearNuevaLinea = (img, nombre, precio)=>{
             <li id="objeto1cosola-img" class="galeria-descripcion-items img"><img src="${img}" alt="objeto" class="foto"></li>
             <li class="galeria-descripcion-items nombre"><p id="objeto1cosola-nombre">${nombre}</p></li>
             <li id="objeto1cosola-precio " class="galeria-descripcion-items precio"><p>${precio}</p></li>
-            <li class="galeria-descripcion-items ver-producto"><a href="#">ver producto</a></li>
+            <li class="galeria-descripcion-items ver-producto"><a href="#">Ver Producto</a></li>
         </ul>`;
 
   
@@ -25,12 +25,18 @@ const crearNuevaLinea = (img, nombre, precio)=>{
 
 /////////////////----------HACIENDO LA FUNCION DE LLAMADO--------------//////////////////////
 const serverCall = async (seccion, div)=>{
+  try{
   const response = await fetch(`http://localhost:3000/${seccion}`);
   const cambio = await response.json();
   cambio.forEach((element) => {
      const nuevaLinea = crearNuevaLinea(element.url, element.nombre, element.precio);
      div.appendChild(nuevaLinea);
     });
+
+  }catch{
+    console.log(error);
+    //element.url="../img/404.jpg"
+  }  
 };
 
 

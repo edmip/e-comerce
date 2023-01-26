@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 main{
     padding: 2rem 5rem 0;
 }
@@ -20,3 +21,22 @@ input,select,textarea:focus{
     box-shadow: 0px 2px 0px rgba(233, 74, 74, 40%);
 }
 
+.galeria-titulo{
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+
+.precio{
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+
+.ver-producto, .galeria-vertodo{
+    color: var(--color-azul);
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+
+.nombre{
+    font-family: 'Raleway';
+}
