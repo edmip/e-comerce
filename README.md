@@ -1,8 +1,11 @@
 <em> Challenge Cuatro de Seis | Formación Front-End | AluraGeek E-Commerce </em>
 <h1> AluraGeek-ONE-Alura_Challenge </h1>
+</br>
 
 ![challenge](https://user-images.githubusercontent.com/100251500/214720430-b6115276-a659-4328-bd3e-87a4a4f6be19.jpg)
 
+</br>
+</br>
 
 <h3> descrpcion del desafio: </h3>
 
@@ -20,17 +23,22 @@ Para ello están pidiendo nuestra ayuda como desarrolladores, el e-commerce debe
 </ul>
 
 ** Es muy importante que el sitio sea adaptable ** para que los clientes puedan comprar fácilmente a través de dispositivos móviles **
-
+</br>
+</br>
+</br>
 
 <h4>Datos de Ingreso Admin:</h4>
 - `Correo:`quito@gmail.com
 - `Contraseña:`ecuador
-
+</br>
+</br>
+</br>
 
 <h2>Vista Previa:</h2>
-
+</br>
 ![AluraGeek index](https://user-images.githubusercontent.com/100251500/214721620-466abbcb-b52e-4afb-8a99-d8eb9066cb75.png)
-
+</br>
+</br>
 
 ## :hammer:Tecnologias Utilizadas
 
@@ -57,7 +65,7 @@ Para ello están pidiendo nuestra ayuda como desarrolladores, el e-commerce debe
 - ` Flexbox`
 - ` Grid`
 - ` Creacion de Variables`
-
-
-
+</br>
+</br>
+</br>
 :construction: Detalles aun en construcción :construction:
