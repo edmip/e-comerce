@@ -28,8 +28,10 @@ Para ello están pidiendo nuestra ayuda como desarrolladores, el e-commerce debe
 </br>
 
 <h4>Datos de Ingreso Admin:</h4>
-- `Correo:`quito@gmail.com
-- `Contraseña:`ecuador
+
+- ` Correo:`quito@gmail.com
+- ` Contraseña:`ecuador
+
 </br>
 </br>
 </br>
